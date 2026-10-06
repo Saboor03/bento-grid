@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <title>Frontend Mentor | Bento grid</title>
+</head>
+<body>
+
+  <!-- DOM order = mobile order. On desktop, CSS Grid areas move the
+       "create" and "write" cards into the left column. -->
+  <main class="bento">
+
+    <section class="card hero">
+      <h1>Social Media <span class="accent">10x</span> <em>Faster</em> with AI</h1>
+      <img src="./assets/images/illustration-five-stars.webp" alt="Five stars">
+      <p>Over 4,000 5-star reviews</p>
+    </section>
+
+    <section class="card manage">
+      <img src="./assets/images/illustration-multiple-platforms.webp"
+           alt="@YourCo on Instagram with 12K followers and @YourCo on X with 8K followers">
+      <h2>Manage multiple accounts and platforms.</h2>
+    </section>
+
+    <section class="card maintain">
+      <h2>Maintain a consistent posting schedule.</h2>
+      <img src="./assets/images/illustration-consistent-schedule.webp"
+           alt="Posting calendar for August 2024, week 1, with four days completed">
+    </section>
+
+    <section class="card schedule">
+      <h2>Schedule to social media.</h2>
+      <div class="schedule__panel">
+        <img src="./assets/images/illustration-schedule-posts.webp"
+             alt="Bar chart of the best time to post, with Monday at 6am the most active">
+      </div>
+      <p>Optimize post timings to publish content at the perfect time for your audience.</p>
+    </section>
+
+    <section class="card grow lg">
+      <img src="./assets/images/illustration-grow-followers.webp"
+           alt="Follower growth of 20,642, up 490%, and 89,532 followers, up 120%">
+      <h2>Grow followers with non-stop content.</h2>
+    </section>
+
+    <section class="card stat">
+      <div>
+        <p class="stat__figure">&gt;56%</p>
+        <p>faster audience growth</p>
+      </div>
+      <img src="./assets/images/illustration-audience-growth.webp" alt="Avatars of three users">
+    </section>
+
+    <section class="card create lg">
+      <h2>Create and schedule content <em>quicker.</em></h2>
+      <img src="./assets/images/illustration-create-post.webp" alt="Create Post button">
+    </section>
+
+    <section class="card write lg">
+      <h2>Write your content using AI.</h2>
+      <img src="./assets/images/illustration-ai-content.webp"
+           alt="Chat asking for 5 tips to grow followers on Instagram, with an AI reply">
+    </section>
+
+  </main>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+    Coded by <a href="#">Saboor Orimadegun</a>.
+  </footer>
+</body>
+</html>
